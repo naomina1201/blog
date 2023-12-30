@@ -1,17 +1,17 @@
 module.exports = {
   siteMetadata: {
-  title: `ナオのメンタルヘルス`,
-  author: {
-    name: `ナオ`,
-    summary: `統合失調症。再発防止と病気の理解のためメンタルヘルスについて学んでいます`,
-  },
-  description: `当サイトは、私、ナオが心の病や心の病気について、知識を蓄えつつ勉強になったことや私自身が思ったことなど突っ込んで記事を発信していくサイトです。`,
-  siteUrl: `https://naomina.com/`,
-  social: {
-    twitter: `naominamecom`,
-    podcast: `https://podcasts.apple.com/jp/podcast/%E3%83%8A%E3%82%AA%E3%81%AE%E3%83%A1%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%98%E3%83%AB%E3%82%B9%E3%83%A9%E3%82%B8%E3%82%AA/id1649348148`,
-  },
-  category: [
+    title: `ナオのメンタルヘルス`,
+    author: {
+      name: `ナオ`,
+      summary: `統合失調症。再発防止と病気の理解のためメンタルヘルスについて学んでいます`,
+    },
+    description: `当サイトは、私、ナオが心の病や心の病気について、知識を蓄えつつ勉強になったことや私自身が思ったことなど突っ込んで記事を発信していくサイトです。`,
+    siteUrl: `https://naomina.com/`,
+    social: {
+      twitter: `naomina121`,
+      podcast: `https://podcasts.apple.com/jp/podcast/%E3%83%8A%E3%82%AA%E3%81%AE%E3%83%A1%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%98%E3%83%AB%E3%82%B9%E3%83%A9%E3%82%B8%E3%82%AA/id1649348148`,
+    },
+    category: [
       {
         slug: `depression`,
         name: `うつ病`,
@@ -23,9 +23,9 @@ module.exports = {
         description: `統合失調症について情報をまとめたTips`,
       },
       {
-        slug:`mentalillness`,
-        name:`その他の精神疾患`,
-        description:`その他の精神疾患について情報をまとめたTips`,
+        slug: `mentalillness`,
+        name: `その他の精神疾患`,
+        description: `その他の精神疾患について情報をまとめたTips`,
       },
       {
         slug: `mentalhealth`,
@@ -33,13 +33,13 @@ module.exports = {
         description: `心の健康を維持できるような情報をまとめたTips`,
       },
     ],
-},
+  },
   plugins: [
     {
       resolve: `gatsby-plugin-google-gtag`,
       options: {
         trackingIds: [
-          process.env.GATSBY_TRACKING_ID,//トラッキングID
+          process.env.GATSBY_TRACKING_ID, //トラッキングID
         ],
         pluginConfig: {
           head: true,
@@ -71,48 +71,48 @@ module.exports = {
         name: `blog`,
       },
     },
-      {
-        resolve: `gatsby-source-filesystem`,
-        options: {
-          name: `images`,
-          path: `${__dirname}/src/images`,
-        },
+    {
+      resolve: `gatsby-source-filesystem`,
+      options: {
+        name: `images`,
+        path: `${__dirname}/src/images`,
       },
-      {
-        resolve: `gatsby-transformer-remark`,
-          options: {
-            plugins: [
-              {
-                resolve: `gatsby-remark-autolink-headers`,
-                options: {
-                  icon: false,
-                  maintainCase: false,
-                },
-              },
-              {
-                resolve: "gatsby-remark-component",
-                options: { components: ["my-component", "other-component"] }
-              },
-              {
-                resolve: `gatsby-remark-images`,
-                options: { maxWidth: 630},
-              },
-              `gatsby-remark-responsive-iframe`,
-              `gatsby-remark-reading-time`,
-            ],
-          }
+    },
+    {
+      resolve: `gatsby-transformer-remark`,
+      options: {
+        plugins: [
+          {
+            resolve: `gatsby-remark-autolink-headers`,
+            options: {
+              icon: false,
+              maintainCase: false,
+            },
+          },
+          {
+            resolve: "gatsby-remark-component",
+            options: { components: ["my-component", "other-component"] },
+          },
+          {
+            resolve: `gatsby-remark-images`,
+            options: { maxWidth: 630 },
+          },
+          `gatsby-remark-responsive-iframe`,
+          `gatsby-remark-reading-time`,
+        ],
       },
-      {
-        resolve: `gatsby-remark-responsive-iframe`,
-        options: {
-          wrapperStyle: `margin-bottom: 1.0725rem`,
-        },
+    },
+    {
+      resolve: `gatsby-remark-responsive-iframe`,
+      options: {
+        wrapperStyle: `margin-bottom: 1.0725rem`,
       },
-      `gatsby-remark-prismjs`,
-      `gatsby-remark-copy-linked-files`,
-      `gatsby-remark-smartypants`,
+    },
+    `gatsby-remark-prismjs`,
+    `gatsby-remark-copy-linked-files`,
+    `gatsby-remark-smartypants`,
 
-      {
+    {
       resolve: `gatsby-plugin-feed`,
       options: {
         query: `
@@ -189,20 +189,20 @@ module.exports = {
       },
     },
 
-  {
-      resolve: 'gatsby-plugin-manifest',
+    {
+      resolve: "gatsby-plugin-manifest",
       options: {
-        name: 'ナオのメンタルヘルス',
-        short_name: 'ナオのメンタルヘルス',
-        start_url: '/',
-        description: '心の健康や心の病の正しい知識を普及するための目的としたサイト',
-        background_color: '#BC9D26', // アプリ起動時の背景色
-        theme_color: '#BC9D26', // ブラウザツールバーの色
-        display: 'minimal-ui',// アプリのスタイル
+        name: "ナオのメンタルヘルス",
+        short_name: "ナオのメンタルヘルス",
+        start_url: "/",
+        description:
+          "心の健康や心の病の正しい知識を普及するための目的としたサイト",
+        background_color: "#BC9D26", // アプリ起動時の背景色
+        theme_color: "#BC9D26", // ブラウザツールバーの色
+        display: "minimal-ui", // アプリのスタイル
         icon: `src/images/gatsby-icon.png`,
       },
     },
     `gatsby-plugin-offline`,
   ],
 }
-
