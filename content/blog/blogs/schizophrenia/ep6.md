@@ -80,4 +80,4 @@ tags: [ネタ]
 
 ということで、今日は、統失君とお話ししてみました。
 
-<a href="https://twitter.com/naominamecom/" target="_blank" class="link_name">Twitter</a>もやっていますのでよければ見てあげてくださいね！
+<a href="https://twitter.com/naomina121/" target="_blank" class="link_name">Twitter</a>もやっていますのでよければ見てあげてくださいね！
