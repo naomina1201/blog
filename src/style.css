@@ -1,5 +1,5 @@
 :root {
-  --font: font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", "Hiragino Kaku Gothic ProN", "Hiragino Sans", sans-serif;
+  --font: font-family: "游ゴシック体", YuGothic, "游ゴシック", "Yu Gothic", "メイリオ", "Hiragino Kaku Gothic ProN";
   --black: #333;
 }
 html {
@@ -19,6 +19,17 @@ body {
   padding: 10px 15px;
 }
 
+.x{
+  color:#fff;
+  font-size:25px;
+  background-color: #333;
+}
+
+.fa-x-twitter:before {
+  content: '𝕏';
+  font-family: unset;
+  font-weight: bold;
+}
 
 .modalWrapper {
   text-align: center;
