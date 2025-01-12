@@ -11,7 +11,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import styled from "styled-components"
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPodcast } from '@fortawesome/free-solid-svg-icons'
-import { faTwitter, faInstagram } from '@fortawesome/free-brands-svg-icons'
+import { faTwitter, faXTwitter } from '@fortawesome/free-brands-svg-icons'
 
 const Bio = () => {
   const data = useStaticQuery(graphql`
@@ -59,21 +59,9 @@ const Bio = () => {
                 href={`https://twitter.com/${social?.twitter || ``}`}
                 target="_blank"
                 rel="noopener"
-                className="tw"
+                className="x fa-x-twitter fa-x"
               >
-                <FontAwesomeIcon icon={faTwitter} />
-                Twitter
-              </a>
-            </li>
-            <li>
-              <a
-                href={`${social?.podcast || ``}`}
-                target="_blank"
-                rel="noopener"
-                className="podcast"
-              >
-                <FontAwesomeIcon icon={faPodcast} />
-                PodCast
+                <FontAwesomeIcon icon={faXTwitter} />
               </a>
             </li>
           </Sns>

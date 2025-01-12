@@ -6,7 +6,7 @@ module.exports = {
       summary: `統合失調症。再発防止と病気の理解のためメンタルヘルスについて学んでいます`,
     },
     description: `当サイトは、私、ナオが心の病や心の病気について、知識を蓄えつつ勉強になったことや私自身が思ったことなど突っ込んで記事を発信していくサイトです。`,
-    siteUrl: `https://naomina.com/`,
+    siteUrl: `https://naomina-mental-health.com/`,
     social: {
       twitter: `naomina121`,
       podcast: `https://podcasts.apple.com/jp/podcast/%E3%83%8A%E3%82%AA%E3%81%AE%E3%83%A1%E3%83%B3%E3%82%BF%E3%83%AB%E3%83%98%E3%83%AB%E3%82%B9%E3%83%A9%E3%82%B8%E3%82%AA/id1649348148`,

@@ -24,9 +24,9 @@ description: ナオについて自己紹介をしていきます。
 - 趣味は、プログラミング。
 - 苦手なことは、デザインを考えること。
 
-### Twitter
+### X(Twitter)
 
-実は、<a href='https://twitter.com/naominamecom' class='link_name' target='_blank'>Twitter</a>で呟いてたりします。
+実は、<a href='https://x.com/naomina121' class='link_name' target='_blank'>Twitter</a>で呟いてたりします。
 
 絡んでくれるとものすごく私が尻尾を振って喜びます！
 

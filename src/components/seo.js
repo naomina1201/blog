@@ -44,7 +44,7 @@ const Seo = props => {
   const rootPath = `${__PATH_PREFIX__}/`
   const isRootPath = location.pathname === rootPath
 
-  const siteUrl = "https://naomina.com" + location.pathname
+  const siteUrl = "https://naomina-mental-health.com/" + location.pathname
 
   let blogUrl = location.pathname === rootPath ? site.siteMetadata.siteUrl : siteUrl
   // ページネーション削除
